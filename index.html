@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Weather · UTM</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>UNIVERSITY OF TORONTO MISSISSAUGA</header>
+    <h1>Campus weather</h1>
+
+    <section aria-live="polite" aria-label="Current conditions">
+      <p id="temperature">— °C</p>
+      <p id="tip">Checking the weather…</p>
+      <p id="time"></p>
+    </section>
+
+    <footer>
+      <button id="refresh" type="button">Refresh weather</button>
+      <a href="https://open-meteo.com/">Data by Open-Meteo</a>
+    </footer>
+  </main>
+</body>
+</html>
